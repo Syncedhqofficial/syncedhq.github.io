@@ -2,124 +2,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SyncedHQ | Discord Server Setup</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0d1117;
-      color: #ffffff;
-    }
-    header {
-      text-align: center;
-      padding: 50px 20px 20px;
-      background-color: #161b22;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 3em;
-      color: #58a6ff;
-    }
-    header p {
-      font-size: 1.2em;
-      color: #8b949e;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      color: #58a6ff;
-    }
-    .services, .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background-color: #21262d;
-      border: 1px solid #30363d;
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-    }
-    .card img {
-      max-width: 100%;
-      border-radius: 5px;
-    }
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      background-color: #161b22;
-      color: #8b949e;
-      font-size: 0.9em;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      color: #fff;
-      background: #238636;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background: #2ea043;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncedHQ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0d1117;
+            color: white;
+        }
+        header {
+            background-color: #161b22;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        header h1 {
+            font-size: 3em;
+            color: #58a6ff;
+            margin: 10px 0 5px;
+        }
+        header p {
+            color: #8b949e;
+            margin: 0;
+        }
+        .banner {
+            background: linear-gradient(90deg, #58a6ff, #1f6feb);
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .features, .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #21262d;
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        h2 {
+            color: #58a6ff;
+            text-align: center;
+        }
+        footer {
+            background-color: #161b22;
+            text-align: center;
+            padding: 20px;
+            color: #8b949e;
+        }
+        a {
+            color: #58a6ff;
+        }
+    </style>
 </head>
 <body>
-  <header>
+
+<header>
+    <img src="profile.png" alt="Profile Picture">
     <h1>SyncedHQ</h1>
-    <p>Custom Discord Server Builds | Bots • Roles • Branding</p>
-  </header>
+    <p>Expert Discord Server Builds | Roles • Bots • Branding</p>
+</header>
 
-  <section>
-    <h2>What We Offer</h2>
-    <div class="services">
-      <div class="card">
-        <h3>Full Bot Integration</h3>
-        <p>Setup and configure bots like MEE6, Carl-bot, TicketTool, Dyno, and more.</p>
-      </div>
-      <div class="card">
-        <h3>Role & Channel Setup</h3>
-        <p>Professional role hierarchy, permission management, and category structure.</p>
-      </div>
-      <div class="card">
-        <h3>Server Branding</h3>
-        <p>Custom emojis, layout, welcome messages, embeds, and themes that reflect your style.</p>
-      </div>
+<div class="banner">Professional Discord Services for Brands, Creators & Communities</div>
+
+<section>
+    <h2>What We Do</h2>
+    <div class="features">
+        <div class="card">
+            <h3>Bot Integration</h3>
+            <p>We install and configure powerful bots like Dyno, TicketTool, CarlBot, and more to automate and manage your server.</p>
+        </div>
+        <div class="card">
+            <h3>Channel & Role Setup</h3>
+            <p>Clean and professional server hierarchy, categories, and permission setups — tailored to your community’s needs.</p>
+        </div>
+        <div class="card">
+            <h3>Custom Server Branding</h3>
+            <p>Welcome messages, embedded layouts, and channel names styled to match your branding and audience tone.</p>
+        </div>
     </div>
-  </section>
+</section>
 
-  <section>
+<section>
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        SyncedHQ was founded with a passion for community organization and Discord automation. Whether you’re a business, content creator,
+        or gaming group, we build servers that feel premium, function perfectly, and keep users engaged. Our goal is to deliver
+        fully custom, secure, and professional Discord servers with seamless user experience and powerful backend integration.
+    </p>
+</section>
+
+<section>
     <h2>Gallery</h2>
     <div class="gallery">
-      <div class="card">
-        <img src="https://via.placeholder.com/400x200?text=Rules+Embed+Example" alt="Rules Embed" />
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x200?text=Moderator+Channel" alt="Moderator View" />
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x200?text=Verification+Flow" alt="Verification" />
-      </div>
+        <div class="card">
+            <p>Rules Embed</p>
+            <img src="rules.png" alt="Rules">
+        </div>
+        <div class="card">
+            <p>Moderator View</p>
+            <img src="moderator.png" alt="Moderator">
+        </div>
+        <div class="card">
+            <p>Verification System</p>
+            <img src="verification.png" alt="Verification">
+        </div>
     </div>
-  </section>
+</section>
 
-  <section>
+<section>
     <h2>Get in Touch</h2>
-    <p>Ready to launch your perfect Discord server? Contact us to get started:</p>
-    <a class="btn" href="https://wa.me/yourwhatsapplink" target="_blank">Message on WhatsApp</a>
-    <a class="btn" href="https://www.fiverr.com/syncedhqofficial" target="_blank">Order on Fiverr</a>
-  </section>
+    <p style="text-align:center;">
+        Have a project or want to learn more? Reach out to us via email or give us a call!
+        <br><br>
+        📧 <strong>Email:</strong> <a href="mailto:syncedhqofficial@gmail.com">syncedhqofficial@gmail.com</a><br>
+        📞 <strong>Phone:</strong> <a href="tel:+353830442461">083 044 2461</a><br><br>
+        🔗 <strong>Facebook:</strong> <a href="https://facebook.com/syncedhqofficial" target="_blank">@syncedhqofficial</a>
+    </p>
+</section>
 
-  <footer>
-    &copy; 2025 SyncedHQ — All rights reserved.
-  </footer>
+<footer>
+    &copy; 2025 SyncedHQ • All rights reserved.
+</footer>
+
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form action="mailto:syncedhqofficial@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea name="message" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+
+<section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+        <p>"SyncedHQ delivered exactly what I needed for my Discord server. Fast and professional!"</p>
+        <span>- Client A</span>
+    </div>
+    <div class="testimonial">
+        <p>"High quality, quick response, and totally worth the price. Highly recommend!"</p>
+        <span>- Client B</span>
+    </div>
+</section>
+
+
+<section id="faq" class="section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+        <h3>How long does a server setup take?</h3>
+        <p>Typically within 1-3 days depending on the package.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Do you offer ongoing support?</h3>
+        <p>Yes! We include follow-up support depending on the package you select.</p>
+    </div>
+</section>
+
 </body>
 </html>
