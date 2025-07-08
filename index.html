@@ -13,6 +13,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #0d1117;
+}
+
     * { box-sizing: border-box; font-family: 'Inter', sans-serif; }
     body { margin: 0; background: #0d1117; color: #fff; }
     header { background: #161b22; padding: 40px 20px; text-align: center; }
@@ -82,5 +90,24 @@
   <footer>
     &copy; 2025 SyncedHQ — All Rights Reserved
   </footer>
+
+  <div id="particles-js"></div>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 60 },
+        size: { value: 3 },
+        move: { speed: 2 },
+        line_linked: { enable: true },
+        color: { value: "#58a6ff" }
+      },
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "repulse" }
+        }
+      }
+    });
+  </script>
 </body>
 </html>
