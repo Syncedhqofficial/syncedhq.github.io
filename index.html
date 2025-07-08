@@ -6,47 +6,87 @@
   <meta name="description" content="SyncedHQ offers premium custom Discord server setups including bots, roles, branding, and automation." />
   <meta property="og:title" content="SyncedHQ | Premium Discord Server Builds" />
   <meta property="og:description" content="Get professional Discord server setups with bots, role systems, branding & more." />
-  <meta property="og:image" content="images/banner.png" />
+  <meta property="og:image" content="profile.png" />
   <meta property="og:url" content="https://syncedhq.github.io" />
   <title>SyncedHQ</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+  <style>
+    * { box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { margin: 0; background: #0d1117; color: #fff; }
+    header { background: #161b22; padding: 40px 20px; text-align: center; position: relative; z-index: 2; }
+    header img { width: 140px; height: 140px; border-radius: 50%; margin-bottom: 20px; }
+    header h1 { font-size: 3.5rem; margin: 0; color: #58a6ff; }
+    header p { font-size: 1.3rem; color: #8b949e; }
+    section { padding: 80px 20px; max-width: 1000px; margin: auto; position: relative; z-index: 2; }
+    h2 { font-size: 2.4rem; color: #58a6ff; margin-bottom: 30px; }
+    .services, .gallery { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; }
+    .card { background: #21262d; padding: 35px; border-radius: 14px; width: 300px; text-align: center; }
+    .card h3 { margin-top: 0; font-size: 1.3rem; }
+    .card p { color: #c9d1d9; font-size: 1rem; }
+    form { display: flex; flex-direction: column; gap: 20px; background: #21262d; padding: 50px; border-radius: 10px; }
+    form input, form textarea { padding: 22px; font-size: 1.3rem; border: none; border-radius: 5px; }
+    form button { padding: 22px; background: #238636; color: white; border: none; font-size: 1.2rem; border-radius: 5px; cursor: pointer; }
+    .faq details { background: #161b22; padding: 20px; margin-bottom: 10px; border-radius: 6px; }
+    .testimonial { background: #161b22; padding: 25px; border-radius: 10px; margin-bottom: 20px; }
+    footer { text-align: center; padding: 30px; background: #161b22; color: #8b949e; font-size: 0.9rem; }
+    a { color: #58a6ff; text-decoration: none; }
+    #tsparticles { position: fixed; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; }
+    @media screen and (max-width: 768px) {
+      h2 { font-size: 2rem; }
+      header h1 { font-size: 2.5rem; }
+    }
+  </style>
 </head>
 <body>
-  <div id="particles-js"></div>
+  <div id="tsparticles"></div>
   <header>
-    <img src="images/profile.png" alt="SyncedHQ Logo">
+    <img src="profile.png" alt="SyncedHQ Logo">
     <h1>SyncedHQ</h1>
     <p>Custom Discord Server Builds | Bots • Roles • Branding</p>
   </header>
 
   <section>
     <h2>About Us</h2>
-    <p>At SyncedHQ, we specialize in building premium Discord servers tailored to your needs. Whether launching a new community or upgrading an existing one, we deliver bots, roles, branding, automation, and full server structuring.</p>
+    <p>Founded in July 2025, SyncedHQ was created with a passion for delivering high-quality, fully customized Discord server experiences. We started with a simple mission: to help communities, creators, and businesses stand out with professional server setups, automation, and stunning branding.</p>
+    <p>From day one, we’ve focused on building tailored solutions that meet the unique needs of each client. Whether you’re just starting your community or scaling up a thriving project, we provide everything from advanced bot integration and permission systems to server visuals, custom channels, and much more.</p>
+    <p>We're proud to bring creative expertise, technical precision, and a commitment to service that keeps clients coming back. Let SyncedHQ elevate your Discord presence — built clean, styled right, and designed to last.</p>
   </section>
 
   <section>
-    <h2>What We Do</h2>
+    <h2>What We Offer</h2>
     <div class="services">
-      <div class="card"><h3>Bot Integration</h3><p>We install and configure bots like MEE6, Carl-bot, TicketTool, Dyno, and more.</p></div>
-      <div class="card"><h3>Channel Setup</h3><p>Role hierarchies, categories, permissions — all set up professionally.</p></div>
-      <div class="card"><h3>Server Branding</h3><p>Custom emojis, embeds, welcome layouts, banners, and more.</p></div>
+      <div class="card"><h3>Bot Integration</h3><p>Setup and configuration of bots like MEE6, Dyno, Carl-bot, TicketTool, and more.</p></div>
+      <div class="card"><h3>Role & Channel Setup</h3><p>Complete role hierarchy, permissions, and structured categories tailored to your needs.</p></div>
+      <div class="card"><h3>Server Branding</h3><p>Welcome channels, layout, emoji setup, visuals, embed styling, and more.</p></div>
     </div>
   </section>
 
   <section>
-    <h2>FAQs</h2>
-    <details><summary>How long does setup take?</summary><p>1–3 days depending on project size.</p></details>
-    <details><summary>Can you match my brand theme?</summary><p>Yes, we customize branding and layout to match your style.</p></details>
-    <details><summary>Do I own everything after delivery?</summary><p>Yes — full access and ownership is yours once delivered.</p></details>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="rules.png" width="280" />
+      <img src="moderator.png" width="280" />
+      <img src="verification.png" width="280" />
+    </div>
   </section>
 
   <section>
-    <h2>Client Reviews</h2>
-    <div class="testimonial"><strong>"Super clean setup — done fast and looked amazing."</strong><br>— Liam (Streamer)</div>
-    <div class="testimonial"><strong>"Got exactly what I paid for. Whole server done in 2 days."</strong><br>— Kevin (Game Community)</div>
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+      <p><strong>"SyncedHQ built us a fully branded Discord in 2 days — everything was perfect! Highly recommend."</strong><br>— Alex (Crypto Launch Community)</p>
+    </div>
+    <div class="testimonial">
+      <p><strong>"Super easy to work with and delivered exactly what we asked for. Server looks amazing."</strong><br>— Jenna (Gaming Clan)</p>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>FAQs</h2>
+    <details><summary>What platforms do you support?</summary><p>We specialize in Discord setups, but can integrate external tools if needed.</p></details>
+    <details><summary>How long does a setup take?</summary><p>Basic servers: 1–2 days. Branded or advanced builds: 2–4 days.</p></details>
+    <details><summary>Can I request custom features?</summary><p>Absolutely! Use the contact form to describe your needs.</p></details>
   </section>
 
   <section>
@@ -55,13 +95,32 @@
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" rows="6" placeholder="Tell us what you need..." required></textarea>
+      <input type="hidden" name="_autoresponse" value="Thanks for contacting SyncedHQ! We'll get back to you shortly.">
       <button type="submit">Send Message</button>
     </form>
-    <p style="text-align:center; margin-top: 20px;">📞 0830442461 | 📧 syncedhqofficial@gmail.com<br>
-    🔗 <a href="https://www.facebook.com/syncedhqofficial" target="_blank">Facebook</a></p>
+    <p style="margin-top: 30px; text-align: center; font-size: 1.2rem;">
+      📞 0830442461<br>
+      📧 syncedhqofficial@gmail.com<br>
+      🔗 <a href="https://www.facebook.com/syncedhqofficial" target="_blank">Facebook Page</a>
+    </p>
   </section>
 
-  <footer>&copy; 2025 SyncedHQ — All Rights Reserved</footer>
-  <script src="scripts.js"></script>
+  <footer>
+    &copy; 2025 SyncedHQ — All Rights Reserved
+  </footer>
+
+  <script>
+    tsParticles.load("tsparticles", {
+      fullScreen: { enable: false },
+      background: { color: "#0d1117" },
+      particles: {
+        number: { value: 60 },
+        size: { value: 3 },
+        color: { value: "#58a6ff" },
+        move: { enable: true, speed: 0.5 },
+        opacity: { value: 0.5 }
+      }
+    });
+  </script>
 </body>
 </html>
